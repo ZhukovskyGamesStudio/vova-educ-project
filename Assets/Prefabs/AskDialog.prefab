@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2866140653604682834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4827252725959202888}
+        m_TargetAssemblyTypeName: AskDialog, Assembly-CSharp
+        m_MethodName: NoButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4221458952301608272
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +432,7 @@ GameObject:
   - component: {fileID: 5818834187025638284}
   - component: {fileID: 6477801675349864071}
   - component: {fileID: 6740488969079954623}
+  - component: {fileID: 4827252725959202888}
   m_Layer: 5
   m_Name: AskDialog
   m_TagString: Untagged
@@ -488,6 +501,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4827252725959202888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5017292354632066969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5934912304c8b4bb7e3f3fba74a54a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeaderText: {fileID: 2032340412375813568}
+  BodyText: {fileID: 585302758724442062}
 --- !u!1 &5861826964019906866
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,7 +801,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6562794319228275684}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4827252725959202888}
+        m_TargetAssemblyTypeName: AskDialog, Assembly-CSharp
+        m_MethodName: YesButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8356264151908502232
 GameObject:
   m_ObjectHideFlags: 0
